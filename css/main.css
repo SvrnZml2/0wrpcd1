@@ -8,6 +8,14 @@ Last change:	24/08/18
 -------------------------------------------------------------------*/
 
 /*==========================================Loader=================================================*/
+@font-face {
+    font-family: 'reckoner_boldcondensed_bold';
+    src: url('font/reckoner_bold-webfont.woff2') format('woff2'),
+         url('font/reckoner_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic);
 @import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&subset=devanagari,latin-ext';
@@ -441,7 +449,6 @@ ul.slimmenu li ul li a {
 	color: #000;
 }
 
-ul.slimmenu li ul li a:hover {}
 
 ul.slimmenu li ul li {
 	background: none;
@@ -890,6 +897,7 @@ ul.slimmenu.collapsed li>ul {
 	background: -webkit-linear-gradient(transparent, transparent), url('../images/home-1.jpg') repeat;
 	background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
+	background-clip: text;
 	background-position: center center;
 	background-size: cover;
 	text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.1);
@@ -1094,9 +1102,6 @@ svg * {
 	transition: all 300ms linear;
 }
 
-.list-social-team li:hover {}
-
-.list-social-team li:hover.icon-team a {}
 
 /* #Sep
 ================================================== */
@@ -1677,9 +1682,6 @@ align-items: center;
 	transition: all 300ms linear;
 }
 
-#filter li .current {}
-
-#filter li a:hover {}
 
 .isotope-item {
 	z-index: 2;
@@ -3103,11 +3105,11 @@ figure.youtube a img {
 
 .mask{
 	position: relative;
-	background: rgb(253, 2, 2);
+	background: rgb(63, 60, 60);
 	opacity: 0.5;
 	height: 500px;
 	width: 100%;
-	top: -500px;
+	top: 0;
 	left: 0;
 }
 /* #google-container {
@@ -3358,6 +3360,7 @@ figure.youtube a img {
 	position: relative;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
 }
 
@@ -3517,9 +3520,6 @@ figure.youtube a img {
 	transition: all 300ms linear;
 }
 
-.list-social-footer li:hover {}
-
-.list-social-footer li:hover.icon-footer a {}
 
 .footer-line {
 	position: relative;

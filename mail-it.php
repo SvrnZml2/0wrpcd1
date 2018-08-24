@@ -21,8 +21,8 @@ function cleanupentries($entry) {
 	return $entry;
 }
 
-$message = "Ce mail a été transmis le " . date('m-d-Y') . 
-"\n\nName: " . $f_name . 
+$message = "Ce mail a été transmis le " . date('d-m-Y') . 
+"\n\nNom de l'expéditeur: " . $f_name . 
 "\n\nE-Mail de l'expéditeur: " . $f_email . 
 "\n\nMessage: \n" . $f_message . 
 "\n\n\nDétails technique du mail reçu:\n" . $from_ip . "\n" . $from_browser;
