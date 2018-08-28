@@ -894,7 +894,7 @@ ul.slimmenu.collapsed li>ul {
 	font-weight: 700;
 	color: #f9f9f9;
 	-webkit-text-fill-color: transparent;
-	background: -webkit-linear-gradient(transparent, transparent), url('../images/home-1.jpg') repeat;
+	background: -webkit-linear-gradient(transparent, transparent), url('../images/home-1.png') repeat;
 	background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -1988,7 +1988,7 @@ figure.youtube a img {
 ================================================== */
 
 .parallax-2 {
-	background: url('../images/parallax-2.jpg') repeat fixed;
+	background: url('../images/parallax-2.png') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -2042,7 +2042,7 @@ figure.youtube a img {
 }
 
 #owl-logos .item img {
-	width: 170px;
+	width: 90px;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
@@ -2700,7 +2700,7 @@ figure.youtube a img {
 }
 
 .parallax-3 {
-	background: url('../images/parallax-3.jpg') repeat fixed;
+	background: url('../images/parallax-3.png') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -3238,7 +3238,7 @@ figure.youtube a img {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: none;
-	color: #fff;
+	color: rgb(236, 14, 14);
 }
 
 #ajaxsuccess {
@@ -3826,7 +3826,7 @@ figure.youtube a img {
 
 @media only screen and (max-width: 600px) {
 	.home-text h1 {
-		font-size: 25px;
+		font-size: 45px;
 		line-height: 30px;
 	}
 	.portfolio-box-1 {
@@ -3919,4 +3919,8 @@ figure.youtube a img {
 		margin-left: 2px;
 		margin-right: 2px;
 	}
+}
+/*============================Captcha=================================*/
+.g-recaptcha{
+	margin-bottom: 60px;
 }

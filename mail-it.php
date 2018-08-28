@@ -1,5 +1,16 @@
 <?php
-
+if(isset($_POST['submit']))
+{
+	$secretKey = "6Lfa_2sUAAAAAHP9uhDxFCUaFKELObg31Y6Vu70k";
+	$responseKey = $_POST['g-recaptcha-response'];
+	$url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey";
+	$response = file_get_contents($url);
+	$response = json_decode($response);
+	if($response->success)
+	echo "Vérification valide";
+	else
+	echo "Vérification invalide";
+}
 /* Gestion du formulaire de contact */
 
 $send_to = "contact@warp-code.fr";

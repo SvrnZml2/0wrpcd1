@@ -11,6 +11,11 @@ jQuery(document).ready(function ($) { // wait until the document is ready
 			error = true; // change the error state to true
 		}
 
+		var msg = $('#message').val(); // get the value of the input field
+		if(msg == "" || msg == " ") {
+			$('#err-msg').fadeIn('slow'); // show the error message
+			error = true; // change the error state to true
+		}
 		var email_compare = /^([a-z0-9_.-]+)@([da-z.-]+).([a-z.]{2,6})$/; // Syntax to compare against input
 		var email = $('input#email').val(); // get the value of the input field
 		if (email == "" || email == " ") { // check if the field is empty

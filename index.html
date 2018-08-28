@@ -177,8 +177,7 @@
 			<div class="section back-dark">
 				<div class="parallax-3"></div>
 				<div class="dark-over-sep"></div>
-				<div class="services-bottom-link">Nous créons et développons des projets
-					<br>en fonction de vos besoins.</div>
+				<div class="services-bottom-link" style="font-size:50px;">Notre activité </div>
 			</div>
 		</a>
 		<!--================================================== Services  ================================================== -->
@@ -206,8 +205,8 @@
 						<div class="services-wrap back-dark3">
 							<h5>
 								<span>&#xe02b;</span>Développement Web</h5>
-							<p>Nous développons des sites internet vitrine, e-commerce et des applications web en utilisant les langages HTML5,
-								CSS3, JavaScript, PHP 7, MySQL ainsi que les CMS (système de gestion de contenu) WordPress & PrestaShop.</p>
+							<p>Nous développons des sites internet vitrine, e-commerce et des applications web en utilisant les langages HTML5, CSS3,
+								JavaScript, PHP 7, MySQL ainsi que les CMS (système de gestion de contenu) WordPress & PrestaShop.</p>
 						</div>
 					</article>
 					<article class="four columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.7s">
@@ -215,8 +214,8 @@
 							<h5>
 								<span>&#xe040;</span>Responsive Web Design.</h5>
 							<p>Nos sites sont conçus et optimisés afin d'offrir une navigation confortable sur tous types de supports (smartphones,
-								tablettes, grand écran...). Plus de 60% des français surfent aujourd'hui sur le web avec leur smartphone. Posséder une
-								version mobile de votre site augmente votre visibilité tout en améliorant votre image de professionnel.</p>
+								tablettes, grand écran...). Plus de 60% des français surfent aujourd'hui sur le web avec leur smartphone. Posséder
+								une version mobile de votre site augmente votre visibilité tout en améliorant votre image de professionnel.</p>
 						</div>
 					</article>
 
@@ -490,31 +489,20 @@
 				<div class="twelve columns center-item" data-scroll-reveal="enter bottom move 150px over 0.7s after 0.2s">
 					<div id="owl-logos" class="owl-carousel owl-theme">
 						<article class="item">
-							<img src="images/logos/kercode1.png" alt="" />
+							<img src="images/logos/white1.png" alt="" />
 						</article>
 						<article class="item">
 							<img src="images/logos/garden.png" alt="garden" />
 						</article>
 						<article class="item">
-								<img src="images/logos/kercode1.png" alt="" />
-							</article>
-							<article class="item">
-								<img src="images/logos/garden.png" alt="garden" />
-							</article>
-							<article class="item">
-									<img src="images/logos/kercode1.png" alt="" />
-								</article>
-								<article class="item">
-									<img src="images/logos/garden.png" alt="garden" />
-								</article>
-								<article class="item">
-										<img src="images/logos/kercode1.png" alt="" />
-									</article>
-									<article class="item">
-										<img src="images/logos/garden.png" alt="garden" />
-									</article>
-								
-
+							<img src="images/logos/kercode1.png" alt="" />
+						</article>
+						<article class="item">
+							<img src="images/logos/white3.png" alt="garden" />
+						</article>
+						<article class="item">
+							<img src="images/logos/white4.png" alt="" />
+						</article>
 					</div>
 				</div>
 			</div>
@@ -527,7 +515,7 @@
 
 	<section class="section back-black" id="contact">
 		<article class="section">
-			<div id="map">	
+			<div id="map">
 			</div>
 			<div class="mask"></div>
 		</article>
@@ -566,30 +554,33 @@
 				<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
 					<article class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.5s">
 						<label for="name">
-							<span class="error" id="err-name">Entrez votre nom</span>
+							<span class="error" id="err-name">Ce champ est requis !</span>
 						</label>
 						<input name="name" id="name" type="text" placeholder="Votre nom: *" />
 					</article>
 					<article class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.5s">
 						<label for="email">
-							<span class="error" id="err-email">Entrez votre e-mail</span>
+							<span class="error" id="err-email">Ce champ est requis !</span>
 							<span class="error" id="err-emailvld">L'e-mail n'est pas au bon format !</span>
 						</label>
 						<input name="email" id="email" type="text" placeholder="E-Mail: *" />
 					</article>
 					<article class="twelve columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.5s">
 						<label for="message">
-							
+							<span class="error" id="err-msg">Ce champ est requis !</span>
 						</label>
 						<textarea name="message" id="message" placeholder="Ecrivez-nous !"></textarea>
 					</article>
 					<article class="twelve columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.5s">
 						<div id="button-con">
-							<button class="send_message button-effect button--moema button--text-thick button--text-upper button--size-s" id="send" data-lang="en">Envoyer</button>
+							<button class="send_message button-effect button--moema button--text-thick button--text-upper button--size-s" id="send" data-lang="fr"
+							    name='submit'>Envoyer</button>
 						</div>
+
+
 					</article>
 					<div class="clear"></div>
-					<div class="error text-align-center" id="err-form">Il y a un problème de validation, veuillez vérifier votre formulaire !</div>
+					<div class="error text-align-center" id="err-form">Veuillez remplir le formulaire !</div>
 					<div class="error text-align-center" id="err-timedout">La connexion au serveur a expirée</div>
 					<div class="error" id="err-state"></div>
 				</form>
@@ -598,6 +589,8 @@
 				<div id="ajaxsuccess">Votre message a bien été envoyé !</div>
 				<div class="clear"></div>
 			</div>
+
+
 		</section>
 	</section>
 
@@ -626,9 +619,11 @@
 			<article class="twelve columns remove-top remove-bottom" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
 				<div class="footer-line"></div>
 			</article>
-			<article class="five columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
+			<article class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
 				<div class="left-footer">
-					<p>2018 © Warp Code, Agence Web Créative. Tous droits réservés.</p>
+					<p>2018 © Warp Code, Agence Web Créative. Tous droits réservés.
+						<a class="mention-footer" href="mentions-legales.html">Mentions légales</a>
+					</p>
 				</div>
 			</article>
 			<article class="two columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
@@ -649,6 +644,7 @@
 	<script type="text/javascript" src="js/isotope.js"></script>
 	<script type="text/javascript" src="js/map.js"></script>
 	<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9DliI4M9waCos3TzDYiXIp138WrkBLT8&callback=initMap"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<script type="text/javascript" src="js/contact.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
 </body>

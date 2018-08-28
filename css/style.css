@@ -183,3 +183,55 @@ h6 { font-size: 14px; line-height: 20px;font-weight:600;}
 	color:#fff;
 }
 
+/*=========================================Mentions légales=====================================*/
+main{
+	background: #292929;
+	width: 100%;
+}
+h3{
+	padding: 35px;
+	text-align: center;
+}
+.conditions, .limitations, .limitations, .lien {
+	background: #292929;
+	width: 100%;
+	position: relative;
+	padding-bottom: 5%;
+}
+
+.presentation, .gestion, .droit, .description, .propriete{
+	background: #131212;
+	width: 100%;
+	position: relative;
+	padding-bottom: 5%;
+}
+
+.lion2{
+	width: 25%;
+	margin-left: 85%;
+	margin-top: -20%;
+}
+p{
+	color: #8a8e94;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.mentions{
+	text-align: justify;
+}
+.presentation{
+	text-align: center;
+}
+
+.loiCnil{
+    color: #f39517;
+}
+
+.wpc{
+    color: #219bcd;
+}
+
+.mention-footer{
+	color: white;
+}
