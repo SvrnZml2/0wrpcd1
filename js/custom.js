@@ -1,6 +1,16 @@
 (function($) { "use strict";
 
 
+/*----------------------BURGER-------------*/
+
+$(document).ready(function () {
+    $('.burger, .mask3').click(function () {
+      $('.mask3').toggleClass('closed');
+      $('.menu').toggleClass('nav-mobil');
+      $('.burger').toggleClass('active');
+      $('.close-menu').toggleClass('exit'); 
+    });
+  });
 	//Preloader
 
 	Royal_Preloader.config({
@@ -342,7 +352,9 @@
 	
   })(jQuery); 
  
- 
+  $(document).ready(function(){
+	$( ".poster" ).delay(10500).fadeIn(1000);
+	}); 
  
  
  
