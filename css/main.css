@@ -3875,11 +3875,24 @@ figure.youtube a img {
 	
 }
 
+.poster-mentions{
+	display: block;
+	position: relative;
+	z-index: 100;
+	top: 250px;
+	width: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 
 @media screen and (max-width: 767px) {
 	.poster{
 		top: 170px;
 		display:block;
+	}
+	.poster-mentions{
+		top: 200px;
 	}
 	.banniere{
 		display: none;
