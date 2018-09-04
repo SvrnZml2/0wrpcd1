@@ -2042,10 +2042,30 @@ figure.youtube a img {
 }
 
 #owl-logos .item img {
-	width: 90px;
+	width: 190px;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+}
+
+@media screen and (max-width:960px){
+
+	#owl-logos .item img {
+		width: 140px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:767px){
+
+	#owl-logos .item img {
+		width: 160px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
 }
 
 #owl-logos.owl-theme .owl-controls {

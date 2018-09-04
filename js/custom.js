@@ -29,23 +29,7 @@ $(document).ready(function () {
 	});
 	
 	
-	//Navigation	
 
-	$('ul.slimmenu').on('click',function(){
-			var width = $(window).width(); 
-			if ((width <= 1200)){ 
-			$(this).slideToggle(); 
-		}	
-	});				
-	$('ul.slimmenu').slimmenu(
-			{
-			resizeWidth: '1200',
-			collapserTitle: '',
-			easingEffect:'easeInOutQuint',
-			animSpeed:'medium',
-			indentChildren: true,
-			childrenIndenter: '&raquo;'
-	});
 
 	
 	/* Scroll animation */
@@ -124,11 +108,11 @@ $(document).ready(function () {
 		/* Logos Carousel */		
 		
 		$("#owl-logos").owlCarousel({
-			items : 5,
-			itemsDesktop : [1000,4], 
-			itemsDesktopSmall : [900,3],
-			itemsTablet: [600,2], 
-			itemsMobile : false, 
+			items : 3,
+			itemsDesktop : [1000,2], 
+			itemsDesktopSmall : [900,2],
+			itemsTablet: [600,1], 
+			itemsMobile : [600,1], 
 			navigation: false,
 			pagination : true,
 			autoPlay : 3000,
