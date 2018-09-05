@@ -3864,15 +3864,20 @@ figure.youtube a img {
 	width: 100%;
 	height: 100vh;
 }
+#wrapLogo{
+	position: absolute;
+	/* top:300px; */
+	left:45%;
+	width:100%;
+}
 .poster{
-	display: none;
-	position: relative;
-	z-index: 100;
-	top: -700px;
-	width: 50%;
-	left: 50%;
-	transform: translateX(-50%);
+	/* margin-top: 20%;
+	margin-left: 50%; */
+	/* top: -700px;
 	
+	left: 50%; */
+	transform: translateX(-50%);
+	width: 50%;
 }
 
 .poster-mentions{
