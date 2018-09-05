@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 	Royal_Preloader.config({
         mode:        'scale_text',
-        text:        'Warp Code Agence Web Créative',
+        text:        '',
         text_colour: '#219bdc',
 		background:  '#212121',
 		cookie: 'put_a_unique_cookie_string_key_her'
