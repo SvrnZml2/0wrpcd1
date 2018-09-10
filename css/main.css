@@ -6,7 +6,6 @@ Last change:	24/08/18
 
 
 -------------------------------------------------------------------*/
-
 /*==========================================Loader=================================================*/
 @font-face {
     font-family: 'reckoner_boldcondensed_bold';
@@ -68,7 +67,6 @@ body.royal_preloader {
 }
 
 /* Number Mode */
-
 #royal_preloader.royal_preloader_number .royal_preloader_percentage {
 	position: absolute;
 	top: 0;
@@ -105,7 +103,6 @@ body.royal_preloader {
 }
 
 /* Line Mode */
-
 #royal_preloader.royal_preloader_line .royal_preloader_loader {
 	position: absolute;
 	height: 100%;
@@ -121,7 +118,6 @@ body.royal_preloader {
 }
 
 /* Text Mode */
-
 #royal_preloader.royal_preloader_text .royal_preloader_loader {
 	color: #FFFFFF;
 	position: absolute;
@@ -151,7 +147,6 @@ body.royal_preloader {
 }
 
 /* Scale Text Mode */
-
 #royal_preloader.royal_preloader_scale_text .royal_preloader_loader {
 	color: #FFFFFF;
 	position: absolute;
@@ -186,7 +181,6 @@ body.royal_preloader {
 }
 
 /* Logo Mode */
-
 #royal_preloader.royal_preloader_logo .royal_preloader_loader {
 	position: absolute;
 	left: 50%;
@@ -224,7 +218,6 @@ body.royal_preloader {
 }
 
 /* Progress Mode */
-
 #royal_preloader.royal_preloader_progress .royal_preloader_percentage {
 	position: absolute;
 	top: 50%;
@@ -2042,12 +2035,28 @@ figure.youtube a img {
 }
 
 #owl-logos .item img {
-	width: 90px;
+	width: 190px;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
 }
+@media screen and (max-width:960px) {
+	#owl-logos .item img {
+		width: 140px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
 
+@media screen and (max-width:767px) {
+	#owl-logos .item img {
+		width: 160px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
 #owl-logos.owl-theme .owl-controls {
 	position: absolute;
 	left: 0;
@@ -3889,7 +3898,25 @@ figure.youtube a img {
 	left: 50%;
 	transform: translateX(-50%);
 }
+@media screen and (min-width: 767px) {
+	.poster {
+		top: -350px;
+		display: block;
+	}
 
+	.poster-mentions {
+		top: 200px;
+	}
+
+	.poster {
+		top: -450px;
+		display: block;
+	}
+
+	.logo {
+		margin-top: -15px !important;
+	}
+}
 
 @media screen and (max-width: 767px) {
 	.poster{
@@ -3907,7 +3934,27 @@ figure.youtube a img {
 		margin-top: -15px !important;
 	}
 }
+/* MEDIA QUERIES */
+@media screen and (min-width: 960px) {
+	.poster {
+		top: -470px;
+		display: block;
+	}
+}
 
+@media screen and (min-width: 1100px) {
+	.poster {
+		top: -500px;
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.poster {
+		top: -750px;
+		display: block;
+	}
+}
 /*=============================Navigation============================*/
 .menu {
 	height: 80px;
@@ -4022,9 +4069,6 @@ figure.youtube a img {
 	
 }
 
-
-
-
 .nav-mobil  {
 	display: block;
 	z-index: 1000;
@@ -4082,4 +4126,10 @@ figure.youtube a img {
 	background: rgba(53, 52, 52, 0.7);
 	-webkit-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
+}
+.header {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
