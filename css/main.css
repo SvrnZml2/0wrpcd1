@@ -1058,7 +1058,9 @@ svg * {
 
 .social-team {
 	position: relative;
-	display: block;
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 .list-social-team li {
@@ -3961,6 +3963,15 @@ figure.youtube a img {
 		display: block;
 	}
 }
+@media screen and (max-width: 1100px) {
+	.teamCard {
+		flex-direction: column;
+		align-items: center;
+	}
+	.card{
+		margin-top: 50px;;
+	}
+}
 
 @media screen and (min-width: 1300px) {
 	.poster {
@@ -4147,3 +4158,81 @@ figure.youtube a img {
 	flex-direction: column;
 	justify-content: center;
 }
+/* CARDS */
+.teamCard{
+	display:flex;
+	justify-content: space-around;
+}
+.card {
+	width: 280px;
+	height: 360px;
+	border-radius: 15px;
+	padding: 1.5rem;
+	background: white;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	transition: 0.4s ease-out;
+
+  }
+  .card:hover {
+	-webkit-transform: translateY(20px);
+			transform: translateY(20px);
+  }
+  .card:hover:before {
+	opacity: 1;
+  }
+  .card:hover .info {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+			transform: translateY(0px);
+  }
+  .card:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+  }
+  .card img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+  }
+  .card .info {
+	position: relative;
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	-webkit-transform: translateY(30px);
+			transform: translateY(30px);
+	transition: 0.5s;
+  }
+  .card .info h4 {
+	position: absolute;
+	top: -280px;
+	letter-spacing: 2px;
+  }
+  .card .info p {
+	letter-spacing: 1px;
+	font-size: 15px;
+  }
+  .cardFlo h4{
+	  margin-top:20px;
+  }
+  .info h4:first-child{
+	  transform: translateX(5%);
+  }
+
