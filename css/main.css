@@ -759,9 +759,9 @@ ul.slimmenu.collapsed li>ul {
 .title-text.left p {
 	position: relative;
 	text-align: left;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 500;
-	font-size: 13px;
+	font-size: 20px;
 	line-height: 16px;
 	letter-spacing: 1px;
 	color: #fff;
@@ -1042,6 +1042,7 @@ svg * {
 .team-wrap h6 {
 	text-align: left;
 	padding-bottom: 20px;
+	letter-spacing: 1.2px !important;
 }
 
 .team-wrap p {
@@ -1246,7 +1247,7 @@ align-items: center;
 .description-title-text.left p {
 	position: relative;
 	text-align: left;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	font-size: 13px;
 	line-height: 16px;
@@ -1356,7 +1357,7 @@ align-items: center;
 .description-title-text.right p {
 	position: relative;
 	text-align: right;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	font-size: 13px;
 	line-height: 16px;
@@ -1572,7 +1573,7 @@ align-items: center;
 	position: absolute;
 	left: 25px;
 	bottom: 40px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Nunito' sans-serif;
 	letter-spacing: 1px;
 	font-weight: 500;
 	font-size: 18px;
@@ -2056,6 +2057,18 @@ figure.youtube a img {
 		margin: 0 auto;
 		text-align: center;
 	}
+	.title-text.left p{
+		font-size: 13px;
+	}
+	.title-text.left p span:before {
+		left: 8px;
+		width: 30px;
+	}
+	.title-text.left p span{
+		padding-left: 50px;
+	}
+
+
 }
 #owl-logos.owl-theme .owl-controls {
 	position: absolute;
@@ -2103,7 +2116,7 @@ figure.youtube a img {
 .services-wrap h5 span {
 	padding-right: 10px;
 	font-size: 18px;
-	font-family: 'et-line';
+
 }
 
 .pricing-wrap {
@@ -3071,7 +3084,7 @@ figure.youtube a img {
 .contact-det p {
 	position: relative;
 	text-align: left;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
 	font-size: 13px;
 	line-height: 16px;
@@ -3986,6 +3999,7 @@ figure.youtube a img {
 	text-decoration: none;
 	color: #fff;
 	font-weight: 600;
+	font-family: 'Lato' !important;
 }
 
 
