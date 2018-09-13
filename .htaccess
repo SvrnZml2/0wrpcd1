@@ -2,6 +2,7 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://www.warp-code.fr/$1 [R,L]
 Header always set Strict-Transport-Security "max-age=15778800"
-
+RewriteCond %{HTTPS_HOST} !^www.warp-code.fr$ [NC]
+RewriteRule ^(.*)$ https://www.warp-code.fr/$1 [L,R=301]
 Options -Indexes
 Header append X-FRAME-OPTIONS "DENY"

@@ -793,6 +793,9 @@ ul.slimmenu.collapsed li>ul {
 /* #Home
 ================================================== */
 
+#home{
+	background: black;
+}
 .home-carousel-wrap {
 	position: relative;
 	width: 100%;
@@ -2757,6 +2760,8 @@ figure.youtube a img {
 	}
 }
 
+
+
 .services-bottom-link {
 	position: relative;
 	overflow: hidden;
@@ -2764,7 +2769,7 @@ figure.youtube a img {
 	z-index: 10;
 	font-weight: 400;
 	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
+	font-size: 50px;
 	line-height: 22px;
 	letter-spacing: 2px;
 	text-align: center;
@@ -4095,8 +4100,7 @@ figure.youtube a img {
 .team{
 	margin-left: -5%;
 	}
-	
-	
+		
 }
 
 .nav-mobil  {
@@ -4245,4 +4249,7 @@ figure.youtube a img {
 	position: absolute;
 	/* top:-200px; */
 	opacity: 0;
+}
+h2{
+	margin-bottom: 60px;
 }
