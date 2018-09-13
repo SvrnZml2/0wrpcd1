@@ -932,7 +932,7 @@ ul.slimmenu.collapsed li>ul {
 }
 
 .about-wrap p {
-	text-align: left;
+	text-align: justify;
 	padding-left: 100px;
 }
 
@@ -3797,7 +3797,12 @@ figure.youtube a img {
 	}
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1319px) {}
+@media only screen and (min-width: 1200px) {
+	#contactForm{
+		top:-200px;
+	}
+
+}
 
 @media only screen and (min-width: 960px) and (max-width: 1199px) {}
 
@@ -4236,3 +4241,8 @@ figure.youtube a img {
 	  transform: translateX(5%);
   }
 
+#contactForm{
+	position: absolute;
+	/* top:-200px; */
+	opacity: 0;
+}

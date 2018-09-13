@@ -72,7 +72,9 @@ h6 { font-size: 14px; line-height: 20px;font-weight:600;}
 	strong { font-weight: 600;}
 	small { font-size: 80%; }
 	
-
+	p{
+		text-align: justify;
+	}
 
 	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; }
