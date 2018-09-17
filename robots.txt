@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /font/
+Disallow: /mentions-legales.html
+Allow: /css/
+Allow: /images/
+Allow: /js/
+Allow: /videos/
+Noindex: /mentions-legales.html
+Sitemap: https://www.warp-code.fr/sitemap_index.xml
