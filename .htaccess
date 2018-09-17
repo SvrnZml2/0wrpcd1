@@ -4,13 +4,11 @@ RewriteRule ^/?(.*) https://www.warp-code.fr/$1 [R,L]
 Header always set Strict-Transport-Security "max-age=15778800"
 Options -Indexes
 Header append X-FRAME-OPTIONS "DENY"
-
-
-
-<IfModule mod_headers.c>
 Header always set X-XSS-Protection "1; mode=block"
 Header always set X-Content-Type-Options "nosniff"
-</IfModule>
+Header always set Content-Security-Policy "media-src 'self'; object-src 'none'; script-src 'self' https://www.google.com https://apis.google.com https://maps.googleapis.com https://platform.twitter.com https://connect.facebook.net https://www.gstatic.com; report-uri /csp-violation-report-endpoint/"
+
+
 
 <IfModule mod_expires.c>
  ExpiresActive on
