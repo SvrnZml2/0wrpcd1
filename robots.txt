@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /font/
+Disallow: /app/
 Disallow: /mentions-legales.html
 Allow: /css/
 Allow: /images/
