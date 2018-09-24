@@ -1,0 +1,18 @@
+.pageServices{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.flexyFlexy{
+    margin: 0 10%;
+    display: flex;
+}
+.flexyFlexy img{
+    width:390px;
+    height:181px;
+}
+/* .vitrine{
+    width:100%;
+    background: #131212; 
+   
+} */
