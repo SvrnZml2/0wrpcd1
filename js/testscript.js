@@ -196,7 +196,7 @@ var docCookies = {
 	  } : null
 	},
 	_htmlentities: function (a) {
-	  return a.toString().replace(/&/g, "&amp;").replace(/\"/g, "&quote;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/ /g, "&nbsp;")
+	  return a.toString().replace(/&/g, "&amp;").replace(/\"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/ /g, "&nbsp;")
 	},
 	_animatePercentage: function (a, c) {
 	  Royal_Preloader._percentage_loaded = a;
