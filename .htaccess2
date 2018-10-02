@@ -1,3 +1,17 @@
 
 
- ; script-src 'self' https://www.google.com https://apis.google.com https://maps.googleapis.com https://platform.twitter.com https://connect.facebook.net https://www.gstatic.com
+ ; script-src 'self' 
+https://www.warp-code.fr/js/script.js 
+https://www.warp-code.fr/js/jquery-2.1.1.js 
+https://www.google.com/recaptcha/api.js 
+https://syndication.twitter.com/settings 
+https://apis.google.com/js/platform.js 
+https://apis.google.com/js/rpc:shindig_random.js?onload=init 
+https://maps.googleapis.com/maps/api/js?key=AIzaSyB9DliI4M9waCos3TzDYiXIp138WrkBLT8&callback=initMap 
+https://platform.twitter.com/widgets.js 
+https://www.google.com 
+https://apis.google.com 
+https://maps.googleapis.com 
+https://platform.twitter.com 
+https://connect.facebook.net 
+https://www.gstatic.com"
