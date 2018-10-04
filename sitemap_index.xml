@@ -9,12 +9,38 @@
 
 <url>
   <loc>https://www.warp-code.fr/</loc>
-  <lastmod>2018-09-26T14:02:59+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.warp-code.fr/images/lion2.png</image:loc>
+    <image:title>Logo de l'Agence Web Créative Warp-Code.fr</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.warp-code.fr/images/teamA.png</image:loc>
+     <image:title>Photo portrait de Sébastien Champalaune</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.warp-code.fr/images/teamB.png</image:loc>
+     <image:title>Photo portrait de Florent Sadot</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.warp-code.fr/images/teamC.png</image:loc>
+     <image:title>Photo portrait de Cédric Le Tallec</image:title>
+  </image:image>
+  <lastmod>2018-10-04T14:02:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.warp-code.fr/services.html</loc>
+  <lastmod>2018-10-04T14:02:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.warp-code.fr/offres.html</loc>
+  <lastmod>2018-10-04T14:02:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.warp-code.fr/mentions-legales.html</loc>
-  <lastmod>2018-09-14T14:02:59+00:00</lastmod>
+  <lastmod>2018-10-04T14:02:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
