@@ -1,0 +1,227 @@
+.horizon,
+.middle,
+.front {
+    position: fixed;
+    bottom: 0;
+    width: 1500px;
+}
+
+#bodyMain {
+    overflow-x: hidden;
+    background-color: black;
+    color: #828E8D;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+/* html, */
+
+
+h1,
+h2,
+h3 {
+    color: #238acb;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+a {
+    color: #238acb;
+}
+
+a img {
+    border: none;
+}
+
+pre {
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background: #646464;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    background: #238acb;
+    z-index: 1000;
+}
+
+.header .logo {
+    float: left;
+    padding: 22px;
+    padding-left: 30px;
+}
+
+.header .credits {
+    float: right;
+    padding-top: 15px;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 500;
+    left: 0;
+}
+
+.horizon {
+    line-height: 0;
+    z-index: 100;
+    width: 3000px;
+    bottom: 45%;
+    z-index: 1;
+    width: 3000px;
+}
+
+.middle {
+    z-index: 250;
+    line-height: 0;
+    width: 4500px;
+    z-index: 500;
+    width: 4000px;
+}
+
+.front {
+    z-index: 500;
+    top: 150px;
+    width: 6000px;
+    z-index: 1000;
+    width: 6000px;
+    display: flex;
+}
+
+.intro {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    padding-right: 50px;
+    background: url('../images/scroll.png') no-repeat right 5px;
+}
+
+.page {
+    top: 0px;
+    width: 800px;
+    background: transparent;
+    padding: 10px 30px;
+    position: absolute;
+
+}
+
+.description {
+
+    width: 800px;
+}
+
+.documentation {
+    left: 250px;
+    width: 1300px;
+}
+
+.options {
+    width: 1300px;
+    left: 500px;
+}
+
+/* .download
+{
+    width: 500px;
+    left: 5100px;
+}
+
+.license
+{
+    padding: 100px 30px 30px 30px;
+} */
+.vlockCol,
+vlockCol2,
+.vlockCol3 {
+    display: flex;
+    position: relative;
+    width: 1800px;
+    height: 460px;
+
+}
+
+.h1Maintenance {
+    position: absolute;
+
+    width: 100%;
+}
+
+.blockCol {
+    width: 600px;
+    border: 1px #eee solid;
+    padding: 10px 25px;
+    background-color: rgba(24, 24, 24, 0.7);
+    margin: 75px 25px 0 25px;
+    height: 550px;
+
+
+}
+
+.blockCol p {
+    text-align: justify;
+}
+
+
+.vlockCol2 {
+    display: flex;
+    position: relative;
+    width: 1800px;
+}
+
+.vlockCol3 {
+    display: flex;
+    position: relative;
+    width: 1800px;
+
+}
+
+.coloR {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.spaceLine {
+    line-height: 25px;
+}
+
+.whitey {
+    color: #fff;
+}
+
+#lastBlockCol {
+    /* width:1000px; */
+}
+
+.growtH {
+    border: 1px solid #636b6f;
+    padding: 15px 25px;
+    color: #636b6f;
+    outline: 0;
+    transition: all .35s ease-in-out;
+    font-family: 'Nunito'sans-serif;
+    font-weight: 600;
+   
+}
+
+.growtH:hover {
+    background-color: #000;
+    color: #219bcd;
+    border: 0
+}
+
+.section {
+    position: fixed;
+    bottom: 0;
+}
