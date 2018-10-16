@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.warp-code.fr/</loc>
-    <lastmod>2018-10-08</lastmod>
+    <lastmod>2018-10-16</lastmod>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.warp-code.fr/images/poster.png</image:loc>
@@ -73,7 +73,7 @@
   </url>
   <url>
     <loc>https://www.warp-code.fr/services.html</loc>
-    <lastmod>2018-10-08</lastmod>
+    <lastmod>2018-10-16</lastmod>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.warp-code.fr/images/vitrine.png</image:loc>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.warp-code.fr/offres.html</loc>
-    <lastmod>2018-10-08</lastmod>
+    <lastmod>2018-10-16</lastmod>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.warp-code.fr/images/logo.png</image:loc>
@@ -142,74 +142,14 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.warp-code.fr/</loc>
-    <lastmod>2018-10-08</lastmod>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/poster.png</image:loc>
-      <image:title>logo plein écran de l'entreprise</image:title>
-      <image:caption>logo plein écran de l'entreprise</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/mockup.png</image:loc>
-      <image:title>Some image</image:title>
-      <image:caption>Some image</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/teamA.png</image:loc>
-      <image:title>Photo portrait de Sébastien</image:title>
-      <image:caption>Photo portrait de Sébastien</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/teamB.png</image:loc>
-      <image:title>Photo portrait de Florent</image:title>
-      <image:caption>Photo portrait de Florent</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/teamC.png</image:loc>
-      <image:title>Photo portrait de Cédric</image:title>
-      <image:caption>Photo portrait de Cédric</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logos/sara.png</image:loc>
-      <image:title>logo de Sara Photographie</image:title>
-      <image:caption>logo de Sara Photographie</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logos/luminis.png</image:loc>
-      <image:title>logo Luminis Prod</image:title>
-      <image:caption>logo Luminis Prod</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logos/tribus1.png</image:loc>
-      <image:title>logo de Tribus Virtuelles</image:title>
-      <image:caption>logo de Tribus Virtuelles</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logos/garden.png</image:loc>
-      <image:title>logo de Jardin Indoor</image:title>
-      <image:caption>logo de Jardin Indoor</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logos/chris.png</image:loc>
-      <image:title>logo de DrawnInBox</image:title>
-      <image:caption>logo de DrawnInBox</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logos/kercode1.png</image:loc>
-      <image:title>logo de Kercode</image:title>
-      <image:caption>logo de Kercode</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logos/greta1.png</image:loc>
-      <image:title>logo du greta bretagne sud</image:title>
-      <image:caption>logo du greta bretagne sud</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.warp-code.fr/images/logo.png</image:loc>
-      <image:title>logo de l'entreprise</image:title>
-      <image:caption>logo de l'entreprise</image:caption>
-    </image:image>
+    <loc>https://www.warp-code.fr/policy.html</loc>
+    <lastmod>2018-10-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://www.warp-code.fr/mentions-legales.html</loc>
+    <lastmod>2018-10-16</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
 <!--<guid value="d32f7db0-afea-4212-ab74-0f69b6ca75fd" />-->

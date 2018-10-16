@@ -1,0 +1,57 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://www.warp-code.fr/$1 [R=301,L]
+Header always set Strict-Transport-Security "max-age=31536000"
+Options -Indexes
+Header append X-FRAME-OPTIONS "DENY"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Content-Security-Policy "upgrade-insecure-requests;script-src 'self' https://maps.googleapis.com https://maps.gstatic.com platform.twitter.com connect.facebook.net 'unsafe-eval'; object-src 'none'; media-src 'self'; base-uri 'self'; form-action https://syndication.twitter.com/i/jot 'self'; font-src 'self' fonts.gstatic.com use.fontawesome.com ; img-src 'self' data: https://maps.googleapis.com maps.gstatic.com; connect-src 'self' https://maps.googleapis.com"
+Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+
+<IfModule mod_headers.c>
+<FilesMatch "\\.(ico|jpe?g|png|gif|swf|mp4)$">
+Header set Cache-Control "max-age=2692000, public"
+</FilesMatch>
+<FilesMatch "\\.(css)$">
+Header set Cache-Control "max-age=2692000, public"
+</FilesMatch>
+<FilesMatch "\\.(js)$">
+Header set Cache-Control "max-age=216000, private"
+</FilesMatch>
+<FilesMatch "\\.(x?html?|php)$">
+Header set Cache-Control "max-age=6000, private, must-revalidate"
+</FilesMatch>
+Header unset ETag
+Header unset Last-Modified
+</IfModule>
+
+<IfModule mod_expires.c>
+ ExpiresActive on
+ ExpiresDefault "access plus 1 year"
+ ExpiresByType image/x-icon "access plus 1 year"
+ ExpiresByType image/gif "access plus 1 year"
+ ExpiresByType image/png "access plus 1 year"
+ ExpiresByType image/jpg "access plus 1 year"
+ ExpiresByType image/jpeg "access plus 1 year"
+ ExpiresByType image/svg+xml "access plus 1 year"
+ ExpiresByType video/mp4 "access plus 1 year"
+ ExpiresByType text/x-component "access plus 1 year"
+ ExpiresByType font/truetype "access plus 1 year"
+ ExpiresByType font/opentype "access plus 1 year"
+ ExpiresByType application/x-font-woff "access plus 1 year"
+ ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+ ExpiresByType application/javascript "access plus 1 year"
+ ExpiresByType text/css "access plus 1 year"
+ ExpiresByType text/javascript "access plus 1 year"
+ ExpiresByType text/js "access plus 1 year"
+ ExpiresByType application/x-javascript "access plus 1 year"
+ </IfModule>
+
+
+ ErrorDocument 400 /app/erreur404.html
+ ErrorDocument 401 /app/erreur404.html
+ ErrorDocument 403 /app/erreur404.html
+ ErrorDocument 404 /app/erreur404.html
+ ErrorDocument 405 /app/erreur404.html
+ ErrorDocument 408 /app/erreur404.html
