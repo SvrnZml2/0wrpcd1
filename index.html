@@ -547,21 +547,111 @@
                   </p>
                </div>
             </article>
-            <article class="two columns" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3">
+            <article class="one column" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3">
                <a href="#home" title="Retour en haut de la page" data-gal="m_PageScroll2id">
                   <div class="arrow-up-footer"></div>
                </a>
             </article>
             <div class="fb-like two columns rightFoot" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3" data-href="https://www.warp-code.fr/" data-colorscheme="dark" data-width="300" data-layout="button"
-               data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-            <article class="two columns rightFoot" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3">
-               <a href="https://twitter.com/code_warp?ref_src=twsrc%5Etfw" title="lien externe pour nous suivre sur twitter" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="fr" data-show-count="false">Nous suivre&nbsp;</a>
-            </article>
+               data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+               <div data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3">
+                     <a class="shareF" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/WarpCode56" title="lien externe pour partager notre page sur facebook" target="blank">Partager</a>
+            
+                     
+                              <a target="_blank" class="twitter-btn" title="Follow @code_warp on Twitter" href="https://twitter.com/intent/user?screen_name=code_warp">
+                  <i></i>
+                  <span class="label">Suivre</span>
+            </a>
+            <a class="shareT" href="https://twitter.com/share?url=https://www.twitter.com/code_warp&text=Agence Web Créative, concepteur de sites et d'applications web&via=WarpCode56" title="lien externe pour partager notre page sur twitter" target="blank"> <i></i>
+                              <span class="label">Partager</span></a>
+                    
+
+           
          </div>
       </footer>
+      
+
+
+
+
+      <style>
+                  .twitter-btn, .shareT, .shareF {
+                    font: normal normal normal 13px/26px 'Helvetica Neue',Arial,sans-serif;
+                        height: 28px;
+                        border-radius: 4px;
+                        max-width: 100%;
+                        box-sizing: border-box;
+                        position: relative;
+                        margin-top: 25px;
+                        font-weight: bold;
+                        text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -o-user-select: none;
+                        user-select: none;
+                        cursor: pointer;
+                        overflow: hidden;
+                        display: inline-block;
+                        vertical-align: top;
+                        zoom: 1;
+                        text-decoration: none;
+                  }
+                  .shareF{
+                        background-color: #4267b2;
+                        border: #3e60a5 solid 1px;
+                        color:#fff;
+                        padding: 0 10px;
+                  }
+                  .shareT, .twitter-btn{
+                        background-color: #F8F8F8;
+                  
+                        background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#DEDEDE));
+                        background-image: -moz-linear-gradient(top,#FFF,#DEDEDE);
+                        background-image: -o-linear-gradient(top,#FFF,#DEDEDE);
+                        background-image: -ms-linear-gradient(top,#FFF,#DEDEDE);
+                        background-image: linear-gradient(top,#FFF,#DEDEDE);
+                        border: #CCC solid 1px;
+                        color: #333;
+                  }
+                  .twitter-btn:hover, .shareT:hover, .shareF:hover {
+                        text-decoration: none;
+                  }
+                  
+                  .twitter-btn i, .shareT i {
+                        width: 21px;
+                        height: 16px;
+                        left: 4px;
+                        margin-top: -6px;
+                        position: absolute;
+                        top: 50%;
+                        background: rgba(0, 0, 0, 0) url(data:image/png;base64,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) 0 0 no-repeat;
+                        background-position: -24px 0;
+                  }
+                  
+                  .twitter-btn .label, .shareT .label {
+                        padding: 0 7px 0 29px;
+                        white-space: nowrap;
+                  }
+                  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <script src="js/jquery-2.1.1.js"></script>
       <script src="js/script.js"></script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9DliI4M9waCos3TzDYiXIp138WrkBLT8&callback=initMap"></script>
-      <script async src="https://platform.twitter.com/widgets.js"></script>
+      <!-- <script async src="https://platform.twitter.com/widgets.js"></script> -->
    </body>
 </html>
