@@ -63,11 +63,11 @@
       <nav class="menu">
          <div class="logo"></div>
          <ul>
-            <li class="close-menu"><a href="index.html" title="Retour en haut de page">Accueil</a></li>
+            <li class="close-menu"><a href="index.html" title="Accès à la page d'accueil">Accueil</a></li>
             <li class="close-menu"><a href="services.html" title="Accès à la pages Nos Services">Services</a></li>
             <li class="close-menu"><a href="offres.html" title="Accès à la page Nos Offres">Offres</a></li>
             <li class="close-menu"><a href="index.html#team" title="Accès à la section de présentation de l'équipe">Team</a></li>
-            <li class="close-menu"><a href="index.html#contactForm" title="Accès aux informations de contact">Contact</a></li>
+            <li class="close-menu"><a href="contact.html" title="Accès aux informations de contact">Contact</a></li>
          </ul>
       </nav>
       <div class="burger">
@@ -441,12 +441,12 @@
          </section>
       </section>
       <!--================================================== MAP GOOGLE    ================================================== -->
-      <section class="section back-black" id="contact">
+      <!-- <section class="section back-black" id="contact">
          <div id="map">
-         </div>
+         </div> -->
          <!-- <div class="mask"></div> -->
          <!--================================================== CONTACT    ================================================== -->
-         <section class="section">
+         <!-- <section class="section">
             <div id="contactForm">can u read this ?</div>
             <div class="container">
                <div class="twelve columns remove-top">
@@ -472,9 +472,9 @@
                   </article>
                </div>
             </div>
-         </section>
+         </section> -->
          <!--================================================== FORMULAIRE DE CONTACT    ================================================== -->
-         <section class="section padding-bottom">
+         <!-- <section class="section padding-bottom">
             <div class="container">
                <h2>Un projet, une question ?</h2>
                <form name="ajax-form" id="ajax-form" action="app/mail-it.php" method="post">
@@ -513,7 +513,7 @@
                <div class="clear"></div>
             </div>
          </section>
-      </section>
+       </section> -->
       <!--==================================================  FOOTER    ================================================== -->
       <footer class="section back-dark padding-top-bottom overflow-hidden">
          <div class="container">
@@ -552,25 +552,32 @@
                   <div class="arrow-up-footer"></div>
                </a>
             </article>
-            <article class=" five columns">
+            <article class=" five columns partage" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3">
                   <!-- <div class="fb-like two columns rightFoot" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3" data-href="https://www.warp-code.fr/" data-colorscheme="dark" data-width="300" data-layout="button" data-action="like" data-size="large" data-show-faces="false">
-                  </div>              -->
-                 
-                  <div data-scroll-reveal="enter bottom move 100px over 0.5s after 0.3">   <a class="fb-like" target="blank" data-href="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.warp-code.fr" data-colorscheme="dark" data-width="300" data-layout="button" data-action="like" data-size="large" data-show-faces="false"></a>                 
-                        <a class="shareF" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/WarpCode56" title="lien externe pour partager notre page sur facebook" target="blank">Partager</a>                    
+            </div>              -->
+
+
+                  <div class="soc">
+                        <a class="fb-like" target="blank" data-href="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.warp-code.fr"
+                              data-colorscheme="dark" data-width="300" data-layout="button" data-action="like"
+                              data-size="large" data-show-faces="false"></a>
+                        <a class="shareF" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/WarpCode56"
+                              title="lien externe pour partager notre page sur facebook" target="blank">Partager</a>
+                  </div>
+                  <div class="soc">
                         <a target="_blank" class="twitter-btn" title="Follow @code_warp on Twitter" href="https://twitter.com/intent/user?screen_name=code_warp">
                               <i></i>
                               <span class="label">Suivre</span>
-                         </a>
-                        <a class="shareT" href="https://twitter.com/share?url=https://www.twitter.com/code_warp&text=Agence Web Créative, concepteur de sites et d'applications web&via=WarpCode56" title="lien externe pour partager notre page sur twitter" target="blank"> <i></i>
-                              <span class="label">Partager</span></a>  
-                              
+                        </a>
+                        <a class="shareT" href="https://twitter.com/share?url=https://www.twitter.com/code_warp&text=Agence Web Créative, concepteur de sites et d'applications web&via=WarpCode56"
+                              title="lien externe pour partager notre page sur twitter" target="blank"> <i></i>
+                              <span class="label">Partager</span></a>
 
-                  </div>        
+
+                  </div>
             </article>
       </footer>
       <script src="js/jquery-2.1.1.js"></script>
       <script src="js/script.js"></script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9DliI4M9waCos3TzDYiXIp138WrkBLT8&callback=initMap"></script>
    </body>
 </html>
